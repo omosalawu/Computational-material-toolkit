@@ -1,0 +1,38 @@
+
+# Computational Materials Toolkit
+
+A collection of scientific computing tools developed across research programs in computational materials science, surface chemistry, and atomistic simulation. Code spans Fortran, Python, and Bash, reflecting production workflows used in peer-reviewed research.
+
+## Repository Structure
+
+| Folder | Language | Description |
+|--------|----------|-------------|
+| `kinetic-monte-carlo/` | Fortran | KMC simulation of Fe vacancy hopping in maghemite with Arrhenius kinetics |
+| `vasp-surface-analysis/` | Python | Surface structure preparation and analysis tools using ASE and pymatgen |
+| `md-analysis/` | Python | Post-processing tools for LAMMPS molecular dynamics output |
+| `vasp-workflows/` | Bash | Automated sequential VASP calculation pipelines for HPC environments |
+
+## Research Context
+
+These tools were developed and used across the following research programs:
+
+- **Shell-sponsored corrosion and surface chemistry studies** — Texas A&M University at Qatar (2018–2022)
+- **MAB phase and functional oxide investigations** — University of North Dakota (2022–2023)
+- **Hydrogen conversion and electrolyte modeling** — Illinois Institute of Technology (2023–2025)
+
+Results from workflows built using these tools are published in:
+- *Applied Surface Science* (2020, 2022)
+- *Journal of Physical Chemistry C* (2020, 2024, 2025)
+- *Physical Review Applied* (2023)
+- *Physical Review Materials* (2023)
+- *Scientific Reports* (2022)
+
+## Author
+
+**Omotayo Akande Salawu, PhD**
+Computational Materials Scientist
+omotayo.sal@gmail.com
+
+## License
+
+MIT License — free to use with attribution.
